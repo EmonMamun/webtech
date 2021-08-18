@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 19, 2021 at 11:57 AM
+-- Generation Time: Aug 18, 2021 at 03:27 PM
 -- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.6
+-- PHP Version: 7.3.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47,8 +47,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`Name`, `Email`, `Username`, `Password`, `Gender`, `Birth_date`, `Birth_month`, `Birth_year`, `User_type`, `Dept`, `ID`, `Photo`) VALUES
-('Ankur Saha', '18-37913-2@student.aiub.edu', 'Ankur', '12345678@', 'Male', 31, 7, 1996, 'Student', 'CSE', '18379132', 'MyPic.jpg'),
-('Emon Al Mamun', 'emonmamun@gmail.com', 'Emon', '12345678@', 'Male', 1, 1, 1998, 'Student', 'CSE', '001234', 'Emon.jpg');
+('Emon MAmun', 'ankursaha@gmail.com', 'Ankur', '12345678@', 'Male', 30, 12, 2000, 'Student', 'BBA', '18379132', 'MyPic.jpg'),
+('Ehsanul Soron', 'soron@gmail.com', 'Emon', '12345678@', 'Male', 3, 5, 1996, '', 'CSE', '001234', 'IMG_20180731_165630.jpg'),
+('Emon Al Mamun', 'jim@gmail.com', 'Alex', '12345678@', 'Female', 14, 1, 1996, '', 'BBA', '12345', 'DSC_0023.JPG'),
+('Admin Admin', 'admin@yahoo.com', 'admin', '1234567@', 'Male', 20, 10, 1980, 'Admin', '', '3366', 'DSC_0050.JPG'),
+('Admin Admin', 'admin@yahoo.com', 'admin', '1234567@', 'Male', 20, 10, 1980, 'Admin', '', '3366', 'DSC_0050.JPG'),
+('David Hesell', 'hasell@gmail.com', 'daniel', '12345678@', 'Male', 2, 2, 1992, 'Alumni', 'EEE', '200012', '20180731_164517.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
